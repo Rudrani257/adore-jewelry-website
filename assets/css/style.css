@@ -1,0 +1,122 @@
+/* assets/css/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --navy: #232236;
+  --navy-light: #2c2b42;
+  --ivory: #faf6f0;
+  --ivory-dark: #eee8db;
+  --rose: #c38b81;
+  --rose-light: #d8a7a5;
+  --text-muted: #8b8a96;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--ivory);
+  color: var(--navy);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom UI Layouts mirroring Aelina Atelier */
+.header-navy { background-color: var(--navy); }
+.text-navy { color: var(--navy); }
+.text-ivory { color: var(--ivory); }
+.bg-ivory { background-color: var(--ivory); }
+.text-rose { color: var(--rose); }
+.bg-rose { background-color: var(--rose); }
+
+/* Buttons */
+.btn-rose {
+  background-color: var(--rose);
+  color: var(--ivory);
+  transition: all 0.3s ease;
+}
+.btn-rose:hover {
+  background-color: #a8726a;
+}
+
+/* Card Image Gradient */
+.card-image-overlay {
+  background: linear-gradient(to top, rgba(35, 34, 54, 0.8) 0%, rgba(35, 34, 54, 0) 40%);
+}
+
+/* Pill / Badges */
+.badge-pill {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  color: var(--navy);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.badge-rose {
+  background-color: var(--rose);
+  color: white;
+}
+
+/* Float Animation for Hero */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Wishlist Star */
+.wish-star {
+  background-color: rgba(35, 34, 54, 0.5);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.wish-star:hover {
+  background-color: var(--rose);
+}
+
+/* Star Rating Colors */
+.text-star { color: #d4a373; }
+
+/* Product Add Button on card */
+.btn-add-float {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--rose);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(195, 139, 129, 0.4);
+  transition: transform 0.2s;
+}
+.btn-add-float:hover {
+  transform: scale(1.1);
+}
+
+.hover-scale {
+  transition: transform 0.4s ease;
+}
+.group:hover .hover-scale {
+  transform: scale(1.04);
+}
