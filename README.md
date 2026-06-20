@@ -21,7 +21,6 @@ Modern jewelry web application with elegant UI and responsive design.
 
 <img width="1905" height="918" alt="Screenshot 2026-04-15 012930" src="https://github.com/user-attachments/assets/4c98adbc-6dfd-409c-8b41-50d1eefb8cb3" />
 <img width="1883" height="900" alt="Screenshot 2026-04-15 013047" src="https://github.com/user-attachments/assets/79d4b5a7-a011-4b59-964d-5ca751421cca" />
-![Uploading Screenshot 2026-04-15 013106.png…]()
 <img width="1890" height="899" alt="Screenshot 2026-04-15 013228" src="https://github.com/user-attachments/assets/29fea6b3-e331-4442-80f9-6a980616625c" />
 <img width="1897" height="908" alt="Screenshot 2026-04-15 013249" src="https://github.com/user-attachments/assets/e29685cf-8759-441d-b4aa-4f1157da986b" />
 <img width="1543" height="866" alt="Screenshot 2026-04-15 013639" src="https://github.com/user-attachments/assets/20eeb474-cbcb-41bc-b640-d6dc1c1ed340" />
